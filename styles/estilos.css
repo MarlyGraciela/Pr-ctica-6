@@ -1,0 +1,117 @@
+h1, h2, h3, h4,nav,footer{
+  font-family:"Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+body{
+  font-family: Georgia, Cambria, "Time New Roman",serif;
+  front-size: 100%;
+  background-image: url(background-pattern.png);
+}
+ footer {
+color: white;
+background-color: #2d394a;
+margin: 1em 4em 1em 4em;
+padding: 0.5em;
+}
+
+nav a{
+  padding: 1em;
+}
+
+a:link{
+  font-weight: bold;
+  color: rgb(71, 179, 215);
+}
+
+#superior{
+  background-color: #2d394a;
+  padding: 0.3em;
+  text-align: right;
+}
+
+img[alt^="logo"]{
+  margin-left: 4em;
+}
+
+#logo{
+  background: url(header-background.png);
+}
+
+#barra{
+  background-color: #D6DBDF;
+  padding: 0.5em;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+}
+
+.perfil{
+background-color: white;
+margin: 1em 4em 1em 4em;
+padding-top: 1em;
+}
+
+#fperfil{
+border: 2px solid gray;
+padding: 10px;
+display: block;
+margin: 0px auto;
+
+}
+div h2{
+text-align: center;
+}
+section{
+  border: 2px solid #2d394a;
+  background-color: white;
+  margin: 1em 4em 1em 4em;
+}
+section h3{
+  padding: 0.5em;
+  background: url(header-background.png);
+  color: white;
+}
+section ul{
+  background-color: #2d394a;
+  padding-top: 0.5em;
+  padding: 0.3em;
+}
+
+a[href^="mailto"] {
+background: url(email.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+a[href^="tel"] {
+background: url(images/call.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+p em{
+  color: gray;
+  padding-left: 0.5em;
+}
+section p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section li{
+  display: inline;
+  list-style: none;
+border: 1px solid #2e518b;
+padding: 1px;
+padding-right: 15px;
+padding-left: 15px;
+background-color: #D6DBDF;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+.Edit{
+  background: url(edit.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+.Flag{
+  background: url(flag.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
